@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/home/casa/Documentos/Projetos/unittest/__test__/components/CheckStateResult.test.js">
+    </file>
+    <file path="/home/casa/Documentos/Projetos/unittest/__test__/components/AuthorCard.test.js">
+        <testCase name="AuthorCard Component To render UserName in element div className `.name`" duration="24"/>
+        <testCase name="AuthorCard Component Simulate click event in ClassName .button" duration="19"/>
+    </file>
+    <file path="/home/casa/Documentos/Projetos/unittest/__test__/services/transaction.test.js">
+        <testCase name="Transaction Service Should call axios get with parameter `v1/transaction`" duration="1"/>
+        <testCase name="Transaction Service Should call axios get just one time" duration="1"/>
+        <testCase name="Transaction Service good response" duration="1"/>
+        <testCase name="Transaction Service bad response" duration="0"/>
+    </file>
+    <file path="/home/casa/Documentos/Projetos/unittest/__test__/helpers/hello.test.js">
+        <testCase name="Hello Helper Should return string `Hello world` passing parameter `World`" duration="1"/>
+        <testCase name="Hello Helper Should return string `Hello` without parameter" duration="0"/>
+    </file>
+    <file path="/home/casa/Documentos/Projetos/unittest/__test__/helpers/limit.test.js">
+        <testCase name="Limit Helper Should return string with max 30 character length " duration="1"/>
+    </file>
+</testExecutions>
